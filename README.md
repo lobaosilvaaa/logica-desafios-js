@@ -1,79 +1,96 @@
-# 🧩 Lógica de Programação com Desafios em JavaScript
+# 💻 Lógica de Programação — Praticando com Projetos Interativos
 
-Repositório criado como forma de consolidar os aprendizados adquiridos no curso [Lógica de Programação: Praticando com Desafios](https://cursos.alura.com.br/course/logica-programacao-praticando-desafios) da plataforma Alura.
-
----
-
-## 🎯 Objetivo
-
-Aplicar, de forma prática, os conceitos de **lógica de programação**, incluindo:
-
-- Declaração e uso de **variáveis**
-- Estruturas de **decisão e repetição**
-- Manipulação de **strings e números**
-- Criação de **funções**
-- Resolução de **problemas com algoritmos**
+Este repositório contém os projetos desenvolvidos durante o curso [**Lógica de Programação: Praticando com Desafios**](https://cursos.alura.com.br/course/logica-programacao-praticando-desafios) da Alura. O foco do curso foi aplicar lógica de programação por meio de pequenos projetos práticos utilizando **HTML, CSS e JavaScript**.
 
 ---
 
-## 🧪 Desafios Desenvolvidos
+## 📚 Projetos Desenvolvidos
 
-Os arquivos da pasta `/desafios` contêm os seguintes exercícios resolvidos:
+### 🎲 Projeto 1: **Sorteador de Números**
+- Interface para gerar números aleatórios com `Math.random()`
+- Botão de reinício e controle de quantidade de sorteios
+- Manipulação do DOM com segurança de entrada
 
-| Nº | Desafio                          | Tópico Principal           |
-|----|----------------------------------|----------------------------|
-| 01 | Cálculo de IMC                  | Variáveis, operadores      |
-| 02 | Conversor de Temperatura        | Entrada/saída e conversão  |
-| 03 | Contador de Vogais              | Laço e condições           |
-| 04 | Verificação de Palíndromo       | Strings e lógica           |
-| 05 | Tabuada com Loop                | Laço `for`                 |
-| 06 | Soma dos N primeiros números    | Loop e aritmética          |
-| 07 | Verificador de Número Primo     | Algoritmo matemático       |
-| 08 | Cálculo de Fatorial             | Recursão ou laço `for`     |
-| 09 | Gerador de Senhas Aleatórias    | Strings e `Math.random()`  |
-| 10 | Conversor de Horas (12h ↔ 24h)  | Lógica condicional         |
+### 🎮 Projeto 2: **AluGames (Aluguel de Jogos)**
+- Sistema de aluguel e devolução de jogos com clique
+- Alteração de classes CSS via JavaScript
+- Controle de estados com `if/else`
 
----
+### 🛒 Projeto 3: **Carrinho de Compras**
+- Seleção de produtos com cálculo de valor total
+- Inserção dinâmica de itens no DOM
+- Funções reutilizáveis e reset de carrinho
 
-## 📚 Aprendizados Consolidado
+### 🎫 Projeto 4: **Ingresso Online**
+- Escolha de tipo de ingresso com controle de estoque
+- Regras específicas por tipo (Pista, Camarote etc.)
+- Laço `while` para controle de vendas
 
-Durante a construção desses desafios, foram reforçados os seguintes pontos:
+### 🎁 Projeto 5: **Amigo Secreto**
+- Inclusão de amigos em lista
+- Embaralhamento e sorteio de pares com lógica personalizada
+- Função de reinício e validações básicas
 
-- Aplicação prática da **lógica condicional (`if/else`)**
-- Domínio sobre **loops (`for`, `while`)**
-- Uso de **funções reutilizáveis**
-- Resolução de problemas com **pensamento algorítmico**
-- Leitura e escrita de **código limpo e organizado**
-
----
-
-## 🚀 Como Executar
-
-1. Clone este repositório:
-    ```bash
-    git clone https://github.com/seu-usuario/logica-desafios-js.git
-    ```
-
-2. Acesse o diretório:
-    ```bash
-    cd logica-desafios-js/desafios
-    ```
-
-3. Execute os arquivos com Node.js:
-    ```bash
-    node desafio01.js
-    ```
+### 🧪 Desafios Extras e Validações
+- Validação de entradas repetidas
+- Conversão e normalização de letras (maiúsculas/minúsculas)
+- Regras de quantidade mínima para sorteio
+- Projeto final aplicando todos os conhecimentos
 
 ---
 
-## 🏅 Certificação
+## 🚀 Tecnologias Utilizadas
 
-📌 Ao final do curso, o certificado será incluído aqui como prova de conclusão e validação acadêmica.
+- **HTML5**
+- **CSS3**
+- **JavaScript (ES6+)**
+- Manipulação de DOM
+- Estrutura de controle: `if/else`, `for`, `while`, `switch`
+- Funções, arrays e validações
+
+---
+
+## 📁 Estrutura do Repositório
+
+```
+
+logica-js-praticando-projetos/
+├── sorteador-de-numeros/
+├── alugames/
+├── carrinho-de-compras/
+├── ingresso-online/
+├── amigo-secreto/
+├── desafios-validacoes/
+└── README.md
+
+```
+
+> Cada pasta contém um mini projeto com seus respectivos arquivos: `index.html`, `style.css` e `script.js`
+
+---
+
+## 🏆 O que foi aprendido
+
+- Como aplicar **lógica de programação no front-end**
+- Estruturação de pequenos sistemas funcionais
+- Organização do código com **separação de responsabilidades**
+- Validação de entrada de dados e manipulação de listas
+- Pensamento computacional e boas práticas
+
+---
+
+## 📜 Certificado
+
+📎 Em breve: [Adicionar o link do certificado da Alura aqui]
 
 ---
 
 ## 👨‍💻 Autor
 
-**Evandeilson Silva (Lobão)**
-Estudante de Análise e Desenvolvimento de Sistemas
-[GitHub](https://github.com/lobaosilvaaa) | [LinkedIn](https://www.linkedin.com/in/evandeilson-silva-64b20028a/)
+**Evandeilson Silva (Lobão)**  
+Estudante de Análise e Desenvolvimento de Sistemas  
+[GitHub](https://github.com/lobaosilvaaa) • [LinkedIn](https://www.linkedin.com/in/evandeilson-silva-64b20028a/)
+
+---
+
+> _"Programar é transformar lógica em experiência prática."_ 🧩
