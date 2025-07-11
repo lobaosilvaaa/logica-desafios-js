@@ -55,12 +55,13 @@ Este repositório contém os projetos desenvolvidos durante o curso [**Lógica d
 ```
 
 logica-js-praticando-projetos/
-├── sorteador-de-numeros/
 ├── alugames/
-├── carrinho-de-compras/
-├── ingresso-online/
 ├── amigo-secreto/
-├── desafios-validacoes/
+├── carrinho-compras/
+├── desafio-palindromo/
+├── ingresso/
+├── sorteador-numeros/
+├── desafio.js
 └── README.md
 
 ```
